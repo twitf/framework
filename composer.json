@@ -1,0 +1,22 @@
+{
+  "name": "twitf/framework",
+  "description": "twitf framework.",
+  "keywords": [
+    "twitf framework"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "twitf",
+      "email": "qiangzaiying123@outlook.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Twitf\\Framework\\": "src/"
+    }
+  }
+}
