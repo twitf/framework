@@ -1,29 +1,12 @@
 <?php
-namespace Twitf\Framework\Abstracts;
+/**
+ * Description of this file
+ *
+ * @author  史强 <qshi@suntekcorps.com>
+ * @date    2020/1/19 15:47
+ */
 
-use Hyperf\Di\Annotation\Inject;
-
-use Hyperf\HttpServer\Contract\RequestInterface;
-use Hyperf\HttpServer\Contract\ResponseInterface;
-use Psr\Container\ContainerInterface;
-
-abstract class AbstractsController
+class AbstractsController
 {
-    /**
-     * @Inject
-     * @var ContainerInterface
-     */
-    protected $container;
 
-    /**
-     * @Inject
-     * @var RequestInterface
-     */
-    protected $request;
-
-    /**
-     * @Inject
-     * @var ResponseInterface
-     */
-    protected $response;
 }
